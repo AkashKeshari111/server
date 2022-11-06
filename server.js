@@ -1,6 +1,5 @@
 const express=require("express");
 const connect  = require("./config/db");
-const { authentication } = require("./Middleware/authentication");
 const { UserModel } = require("./users/user.model");
 const dotenv=require("dotenv").config();
 const userRouter=require("./users/user.router")

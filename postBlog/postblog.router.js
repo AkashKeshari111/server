@@ -2,8 +2,6 @@ const { Router } = require("express");
 const { authentication } = require("../Middleware/authentication");
 const { authorization } = require("../Middleware/authorization");
 const { PostBlogModel } = require("./postblog.model");
-var geoip = require('geoip-lite');
-const dns = require('node:dns');
 
 const app = Router();
 
